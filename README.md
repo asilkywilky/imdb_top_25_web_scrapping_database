@@ -11,11 +11,17 @@ After collecting the data, I set up a SQLite database to store it all. I created
 I created a single table in the SQLite database to store information about the top 25 movies from IMDb. The table is structured as follows:
 
 Table: movies_data
+
 title (TEXT): The title of the movie.
+
 release (REAL): The release year of the movie.
+
 length_min (REAL): The duration of the movie in minutes.
+
 age_rating (TEXT): The age rating of the movie (e.g., PG-13, R).
+
 score (REAL): The IMDb score of the movie.
+
 review_count (REAL): The number of reviews the movie has received.
 
 This table allows me to store and manage the movie data efficiently, and it provides a foundation for running queries to analyze the data.
